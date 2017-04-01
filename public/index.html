@@ -30,10 +30,10 @@ THE SOFTWARE.
         <link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="app.css" rel="stylesheet"/>
     </head>
-    <body ng-controller="UsersController" background="img fondo2.jpg" bgproperties="fixed">
+    <body ng-controller="UsersController" background="fondo.jpg" bgproperties="fixed">
         <div class="container">
             <div class="jumbotron text-center">
-                <font color="009789"><h1>Registro de Personal <span class="label label-info">{{ users.length}}</span></h1></font>
+                <font color="#A52A2A" face="Colonna MT"><h1>Registro de Personal <span class="label label-info">{{ users.length}}</span></h1></font>
             <div id="todo-list" class="row">
                 <div class="col-sm-4 col-sm-offset-4">
 
@@ -45,10 +45,9 @@ THE SOFTWARE.
 
                 </div>
             </div>
-
-                <button type="submit" class="btn btn-primary btn-lg" ng-click="get()">Cargar usuarios Registrados</button>
+                
+               <button type="submit" class="btn btn-primary btn-lg" ng-click="get()">Cargar usuarios Registrados</button>
             </div>
-
             <div id="todo-form" class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <form>
